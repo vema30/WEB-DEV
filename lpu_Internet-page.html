@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPU Internet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cc8acc; /* Adjust background color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            border-radius: 8px;
+            background-color: rgb(91, 115, 138);
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+            color: #fff; /* Text color */
+        }
+
+        #image {
+            width: 200px; /* Adjust image width */
+            
+        }
+
+        #clickhere,
+        #logout {
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            background-color: #00bcd4; /* Button background color */
+            transition: background-color 0.9s ease;
+        }
+
+        #clickhere:hover,
+        #logout:hover {
+            background-color: #0097a7; /* Button hover color */
+        }
+
+        p {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="lpu.jpeg" alt="LPU" id="image">
+        <h2>Welcome to LPU Internet</h2>
+        <button id="clickhere">Check Your Usage</button>
+        <p>NOTE: Dear Users, please logout properly before moving to a new location.</p>
+        <button id="logout">Logout</button>
+        <p>To start surfing, minimize this login window and open a new browser window.<br>Please do not close this window without logging out.</p>
+    </div>
+</body>
+</html>
